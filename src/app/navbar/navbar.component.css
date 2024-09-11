@@ -1,0 +1,53 @@
+div{
+    background: linear-gradient(to right, black, rgb(40, 3, 36));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid rgb(64, 54, 54);
+}
+
+#name{
+    margin: 0 2% 0 2%;
+    padding: 0 2%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.navbar li{
+    padding: 5%;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contact-button{
+    margin: 0 2% 0 0;
+    font-size: 15px;
+    border: 1px solid;
+    padding: 0.8%;
+    background-color: rgba(139, 63, 147, 0.326);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bg-on-hover:hover{
+        background-color: rgb(30, 23, 29);
+    }
